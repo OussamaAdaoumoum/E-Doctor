@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>MEDECIEL</title>
+ <link rel="stylesheet" href="../CSS/Rendez_vous.css" />
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+<!-- <form name="testForm" id="testForm" method="post" action="controller/utilisateur-controller.php?action=insert">
+	<fieldset>
+		<legend>.:: Demande de rendez-vous ::.</legend>
+		<section>
+			<div class="cls1">
+				<label>Date du premier symptôme :</label>
+				<label>Veuillez décrire la raison de votre consultation :</label>
+			</div>
+			<div class="cls2">
+				<p>
+					<input type="date" name="date" placeholder="Date du premier symptôme" >
+				</p>
+				<p>
+					<textarea placeholder="votre présentation" rows="8" cols="42" name="description" placeholder="Veuillez décrire la raison de votre consultation"></textarea>
+				</p>
+			</div>
+		</section>
+		<input type="submit" value="Valider" class="valider">
+		<input type="reset" value="Réinitialiser">
+
+	</fieldset> 
+</form> -->
+<a href="../index.html"><img src="../Pics/logo.svg" alt="is not found" class="logo"></a>  	
+<div class="body1" id="particles-js">
+
+<div class="main">  
+	<div class="wrapper">
+
+<input type="checkbox" id="chk" >
+<div class="signup">
+	<form name="testForm" id="testForm" method="post" action="../CONTROLLER/utilisateur-controller_Rendez_vous.php?action=insert">
+		<label for="chk" >Informations</label>
+		<!-- <input type="text" name="txt" placeholder="Nom" required="">
+		<input type="text" name="txt" placeholder="Prenom" required="">
+		<input type="email" name="email" placeholder="Email" required="">
+		<input type="text" name="txt" placeholder="telephone" required="">
+		<input type="password" name="pswd" placeholder="Password" required=""> -->
+		<input type="date" name="date" placeholder="Date du premier symptôme" >
+		<input type="text" name="description" placeholder="La raison de votre consultation"></input>
+		<button>Valider</button>
+	</form>
+</div>
+</div>
+</div>
+</div>
+<script src ="../Js/Log_IN/particles.min.js"></script>
+<script src ="../Js/Log_IN/app.js"></script>
+</body>
+</html>

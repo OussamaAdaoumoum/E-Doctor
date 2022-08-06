@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../CSS/collaboration/collab.css"/>
+	<title>MEDECIEL</title>
+<body>
+	<a href="../index.html"><img src="../Pics/logo.svg" alt="is not found" class="logo"></a>  	
+
+	<div class="body1" id="particles-js">
+	<div class="main">
+	<div class="wrapper">
+		<div class="signup">
+			<form method="post" action="../CONTROLLER/collaboration-controller.php?action=insert">
+				<label>Collaborer</label>
+				<input type="text" name="nom" placeholder="Nom" required="">
+				<input type="text" name="prenom" placeholder="Prenom" required="">
+				<input type="email" name="email" placeholder="Email" required="">
+				<input type="text" name="telephone" placeholder="telephone" required="">
+
+				<input type="text" name="description" placeholder="Description" required="">
+				<input type="submit" value="Valider" class='button'>
+			</form>
+			</div>
+	</div>
+	</div>
+	</div>
+
+	<script src ="../Js/Log_IN/particles.min.js"></script>
+    <script src ="../Js/Log_IN/app.js"></script>
+</body>
+</html>
